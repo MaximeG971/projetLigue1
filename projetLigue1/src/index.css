@@ -14,26 +14,31 @@
   -webkit-text-size-adjust: 100%;
 }
 
-body {
+/* body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-}
+} */
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   line-height: 1.1;
   text-align: center;
-  width: 400px
+  width: 600px
 }
 
 figure {
   background : #091c3e;
   border-radius: 15px;
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
 }
+
 
 div.logoClub {
   display: flex;
@@ -56,4 +61,30 @@ img {
 
 .anneesTitres {
   padding-left: 2rem;
+}
+
+.anneeCreation {
+  padding-left: 2rem;
+  font-weight: bold;
+}
+
+.texteCache {
+  display: none;
+}
+
+button {
+  margin-left: 2rem;
+}
+
+.displayBouton {
+  /* display: flex; */
+  flex-direction: row;
+}
+
+.noDisplayBouton {
+  display: none;
+}
+
+p {
+  display: flex;
 }
