@@ -1,9 +1,9 @@
 import ClubCard from './ClubCard';
 
-const NavBar = ({data}) => {
+const NavBar = ({clubsList}) => {
     return (
         <div>
-            {data.map((items, index) => (
+            {clubsList.map((items, index) => (
                 <ClubCard key={index} {...items}/>
             ))}
         </div>

@@ -1,7 +1,6 @@
 import NavBar from "./components/NavBar";
 import Titre from "./components/Titre"
 
-
 const clubsList = [
   {
     creation : "1970",
@@ -44,7 +43,7 @@ const App = () => {
   return (
     <div>
       <Titre />
-    <NavBar data={clubsList}/>
+    <NavBar clubsList={clubsList}/>
     </div>
   )
 }

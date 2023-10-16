@@ -40,7 +40,8 @@ h2 {
 }
 
 figure {
-  background : #091c3e;
+  /*background : #091c3e;*/
+  background: linear-gradient(to top, #4b6cb7, #182848);
   border-radius: 15px;
   display: flex;
   flex-direction: row;
