@@ -27,6 +27,8 @@
 
 h1 {
   margin-left: 2rem;
+  border-radius: 15px;
+  background: linear-gradient(to top, #4b6cb7, #182848);
 }
 
 
