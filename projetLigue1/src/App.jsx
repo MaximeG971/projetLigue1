@@ -1,4 +1,5 @@
 import NavBar from "./components/NavBar";
+import Titre from "./components/Titre"
 
 
 const clubsList = [
@@ -41,7 +42,10 @@ const clubsList = [
 
 const App = () => {
   return (
+    <div>
+      <Titre />
     <NavBar data={clubsList}/>
+    </div>
   )
 }
 
